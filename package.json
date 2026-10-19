@@ -1,0 +1,11 @@
+{
+  "name": "puncak-rental",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Website statis penyewaan perlengkapan pendakian",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "package": "python3 scripts/package_site.py"
+  }
+}

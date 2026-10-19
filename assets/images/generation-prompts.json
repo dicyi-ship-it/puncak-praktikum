@@ -1,0 +1,68 @@
+{
+  "tenda-2p": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website product catalog photograph. Subject: one unbranded forest-green two-person double-layer dome hiking tent, pitched, entrance open with visible inner mesh, realistic aluminum poles and guy ropes. Scene: seamless warm light gray studio backdrop and floor, subtle contact shadow. Photorealistic professional outdoor equipment product photography, natural fabric stitching and nylon texture, soft diffused daylight. Landscape composition 3:2, three-quarter view, entire tent visible centered with generous margin, no people, no text, no logos, no watermark. This must look like an actual physical tent photographed, not illustration or 3D render.",
+    "file": "tenda-2p.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "tenda-4p": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one spacious burnt-orange four-person double-layer dome camping tent, pitched, realistic doors, rainfly and aluminum poles. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "tenda-4p.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "carrier-60l": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one tall forest-green 60-liter hiking backpack, three-quarter front view showing padded shoulder straps at the side, hip belt, buckles, top lid and fabric pockets. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "carrier-60l.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "carrier-40l": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one compact sand-beige 40-liter hiking backpack, three-quarter front view showing padded straps, hip belt, top lid, compression webbing and buckles. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "carrier-40l.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "sleeping-bag": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one olive-green mummy sleeping bag lying fully extended diagonally with hood open and zipper visible, realistic quilted nylon, entire sleeping bag visible. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "sleeping-bag.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "matras": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one closed-cell green foam camping sleeping mat, partially unrolled with one rolled end, realistic textured foam. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "matras.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "kompor": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one small silver portable single-burner backpacking stove with unfolded pot supports and three fold-out legs, no gas canister and no flame. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "kompor.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "nesting": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one unbranded camping nesting cookware set consisting of a dark gray anodized aluminum pot and matching shallow frying pan with folded orange heat-resistant handles, both visible. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "nesting.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "headlamp": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one compact unbranded hiking LED headlamp with an olive-green adjustable elastic head strap, front three-quarter view, realistic circular lens, lamp turned off. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "headlamp.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "trekking-pole": {
+    "prompt": "Use case: product-mockup. Asset type: hiking rental website catalog photograph. Subject: one single telescopic trekking pole, dark green aluminum shaft with black ergonomic grip and wrist strap, full length shown diagonally, entire object visible with generous margins. Scene: seamless warm light gray studio backdrop and floor with subtle contact shadow. Photorealistic professional outdoor equipment product photography, realistic physical construction and material textures, soft diffused daylight. Landscape 3:2 composition, centered product with generous margin. Must look like a real physical object photographed, not illustration or 3D render. No people, no text, no logos, no watermark.",
+    "file": "trekking-pole.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  },
+  "hero-mountain": {
+    "prompt": "Use case: photorealistic-natural. Asset type: hiking rental website hero photograph. Beautiful authentic natural mountain camping scene in the Indonesian highlands at sunrise, one small forest-green dome tent in the foreground on a grassy ridge, layered volcanic mountains receding into soft mist, subtle warm golden sunlight, lush muted green slopes, serene adventurous atmosphere. Professional landscape photography, realistic rock and grass texture, cinematic but natural color grading, portrait leaning 5:4 composition suitable for a rounded website hero crop. No people, no text, no logos, no illustration, no watermark.",
+    "file": "hero-mountain.webp",
+    "method": "built-in image_gen",
+    "type": "AI-generated representative photograph"
+  }
+}

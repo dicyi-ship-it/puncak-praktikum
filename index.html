@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#214d36">
+  <meta name="description" content="Rencanakan pendakian dengan perlengkapan pilihan. Jelajahi katalog alat hiking dan hitung estimasi biaya sewa di Puncak Rental.">
+  <title>Puncak Rental — Perlengkapan untuk setiap langkah</title>
+  <link rel="icon" href="assets/images/fallback.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#beranda" aria-label="Puncak Rental, beranda"><span class="brand-mark" aria-hidden="true">△</span><span>PUNCAK<span class="brand-sub">RENTAL & OUTDOOR</span></span></a>
+      <nav aria-label="Navigasi utama"><a href="#katalog">Perlengkapan</a><a href="#cara-sewa">Cara sewa</a><a href="#faq">FAQ</a></nav>
+      <a class="cart-link" href="#keranjang"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg><span>Keranjang</span><span id="cart-count" class="count">0</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="beranda" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-line"></span> LANGKAH KECIL, CERITA BESAR</p>
+        <h1 id="hero-title">Kejar puncaknya.<br><span>Kami siapkan<br>perlengkapannya.</span></h1>
+        <p class="hero-description">Petualangan dimulai dari persiapan yang baik. Temukan perlengkapan hiking untuk menemani langkahmu, tanpa harus membeli semuanya.</p>
+        <div class="hero-actions"><a class="button" href="#katalog">Jelajahi perlengkapan <span aria-hidden="true">↗</span></a><a class="text-link" href="#cara-sewa">Bagaimana cara sewanya? <span aria-hidden="true">→</span></a></div>
+        <div class="hero-notes"><span><span aria-hidden="true">✓</span> Tarif per hari</span><span><span aria-hidden="true">✓</span> Ambil di toko</span><span><span aria-hidden="true">✓</span> Konfirmasi via WhatsApp</span></div>
+      </div>
+      <div class="hero-visual"><img src="assets/images/hero-mountain.webp" alt="Gambar AI tenda di lereng pegunungan hijau saat matahari terbit" width="960" height="1200" fetchpriority="high"><span class="visual-top">OUTSIDE IS CALLING</span><div class="visual-caption"><span class="compass" aria-hidden="true">↗</span><div><strong>Sisakan ruang untuk petualangan.</strong><span>Persiapkan alatnya, nikmati perjalanannya.</span></div></div></div>
+    </section>
+    <div class="intro-strip"><div class="container strip-inner"><span class="strip-label">BEKAL MENUJU ALAM</span><span>10 perlengkapan utama</span><span>5 kategori kebutuhan</span><span>Estimasi biaya transparan</span></div></div>
+    <section class="container catalog-section" id="katalog" aria-labelledby="catalog-heading">
+      <div class="section-heading"><div><p class="eyebrow">PILIH BEKAL PETUALANGANMU</p><h2 id="catalog-heading">Perlengkapan, siap dipilih.</h2></div><p>Dari tempat beristirahat hingga teman melangkah.<br>Pilih yang kamu butuhkan, sewa sesuai perjalanan.</p></div>
+      <p class="demo-note"><span aria-hidden="true">ⓘ</span> Katalog & tarif contoh. Gambar dibuat dengan AI. Stok dan ketentuan sewa dikonfirmasi pengelola.</p>
+      <div class="shop-layout">
+        <div class="catalog-content">
+          <div class="catalog-toolbar"><div class="search-wrap"><label class="sr-only" for="search">Cari nama perlengkapan</label><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="search" type="search" placeholder="Cari tenda, carrier, atau alat lainnya…" autocomplete="off"></div><span id="result-count" class="result-count" role="status">10 perlengkapan</span></div>
+          <div id="category-filters" class="filters" role="group" aria-label="Filter kategori"></div>
+          <div id="product-grid" class="product-grid"></div>
+          <div id="no-results" class="empty-results" hidden><h3>Belum menemukan yang dicari?</h3><p>Coba nama perlengkapan lain atau tampilkan semua kategori.</p><button id="reset-filters" class="button secondary" type="button">Reset pencarian & filter</button></div>
+          <noscript><p class="notice">Aktifkan JavaScript untuk melihat 10 produk, menggunakan keranjang, dan menghitung biaya sewa. Pengajuan belum tersedia tanpa JavaScript.</p></noscript>
+        </div>
+        <aside class="cart-panel" id="keranjang" aria-labelledby="cart-heading">
+          <div class="cart-title"><div><p class="eyebrow">RENCANA PERJALANAN</p><h2 id="cart-heading" tabindex="-1">Keranjang sewa</h2></div><span class="cart-symbol" aria-hidden="true">↗</span></div>
+          <p class="subtle">Susun kebutuhanmu. Hitung estimasinya.</p>
+          <div id="cart-empty" class="cart-empty"><svg width="42" height="42" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 17h24l3 25H9l3-25Z"/><path d="M18 19v-8a6 6 0 0 1 12 0v8"/><path d="M19 29h10m-5-5v10"/></svg><p>Petualanganmu dimulai di sini.</p><span>Pilih perlengkapan untuk mengisi keranjang.</span><a href="#product-grid" class="text-link">Lihat pilihan alat →</a></div>
+          <div id="cart-items"></div>
+          <form id="rental-form" novalidate>
+            <fieldset><legend>Tanggal perjalanan</legend><div class="date-fields"><div class="field"><label for="start-date">Pengambilan</label><input id="start-date" type="date" required aria-describedby="date-help start-date-error"><p id="start-date-error" class="field-error"></p></div><div class="field"><label for="end-date">Pengembalian</label><input id="end-date" type="date" required aria-describedby="date-help end-date-error"><p id="end-date-error" class="field-error"></p></div></div><p id="date-help" class="help">10–12 November dihitung 2 hari. Minimum sewa 1 hari.</p></fieldset>
+            <div class="estimate-box"><div><span>Durasi sewa</span><strong id="rental-duration">Belum dipilih</strong></div><div class="total-row"><span>Estimasi total</span><strong id="rental-total">—</strong></div><p id="estimate-help">Pilih tanggal untuk menghitung biaya.</p></div>
+            <fieldset><legend>Kontak penyewa</legend><div class="field"><label for="customer-name">Nama lengkap</label><input id="customer-name" type="text" autocomplete="name" minlength="2" maxlength="80" placeholder="Nama kamu" required aria-describedby="customer-name-error"><p id="customer-name-error" class="field-error"></p></div><div class="field"><label for="customer-phone">Nomor WhatsApp</label><input id="customer-phone" type="tel" autocomplete="tel" placeholder="08… atau 62…" required aria-describedby="phone-help customer-phone-error"><p id="phone-help" class="help">Untuk tindak lanjut pengajuan oleh pengelola.</p><p id="customer-phone-error" class="field-error"></p></div></fieldset>
+            <p id="form-error" class="field-error" role="alert"></p>
+            <button id="review-button" class="button full" type="submit" disabled>Periksa pengajuan <span aria-hidden="true">→</span></button>
+          </form>
+          <section id="review-panel" class="review-panel" hidden aria-labelledby="review-heading"><h3 id="review-heading" tabindex="-1">Periksa pengajuanmu</h3><dl id="review-contact"></dl><ul id="review-lines"></ul><p id="review-dates"></p><p class="review-total" id="review-total"></p><button id="edit-request" class="text-link" type="button">← Ubah pengajuan</button><p class="help">Nama, nomor kontak, dan rincian pengajuan akan dibuka di WhatsApp. Kamu masih perlu menekan kirim untuk meminta konfirmasi stok. Pengajuan belum menjadi reservasi.</p><button id="whatsapp-button" class="button full" type="button" disabled>Ajukan via WhatsApp ↗</button></section>
+          <p id="unavailable-note" class="availability-note">Pengajuan online belum tersedia. Kamu tetap dapat menyusun keranjang dan memeriksa estimasi sewa.</p>
+          <p class="cart-footnote">Estimasi belum termasuk deposit, denda, atau biaya lain bila berlaku. Stok dan ketentuan dikonfirmasi pengelola.</p>
+        </aside>
+      </div>
+    </section>
+    <section id="cara-sewa" class="how-section" aria-labelledby="how-heading"><div class="container"><div class="section-heading"><div><p class="eyebrow">SEDERHANA DARI AWAL</p><h2 id="how-heading">Persiapan beres. Alam menunggu.</h2></div><p>Tiga langkah untuk memulai<br>rencana petualangan berikutnya.</p></div><ol class="steps"><li><span class="step-number">01</span><h3>Pilih perlengkapan</h3><p>Temukan alat yang sesuai kebutuhan. Tambahkan ke keranjang dan atur jumlahnya.</p></li><li><span class="step-number">02</span><h3>Atur tanggal & periksa</h3><p>Tentukan waktu pengambilan dan pengembalian. Lihat estimasi biaya sebelum mengajukan.</p></li><li><span class="step-number">03</span><h3>Konfirmasi & ambil</h3><p>Kirim pengajuan melalui WhatsApp. Setelah disepakati pengelola, ambil perlengkapan di toko.</p></li></ol></div></section>
+    <section class="container faq-section" id="faq" aria-labelledby="faq-heading"><div><p class="eyebrow">SEBELUM BERANGKAT</p><h2 id="faq-heading">Ada yang ingin<br>kamu tanyakan?</h2><p class="subtle">Beberapa hal yang perlu diketahui<br>sebelum menyewa perlengkapan.</p><a class="text-link" href="#kontak">Informasi toko →</a></div><div class="faq-list"><details><summary>Bagaimana biaya sewanya dihitung?</summary><p>Harga per unit per hari dikalikan jumlah alat dan selisih hari pengembalian dengan pengambilan. Contoh: ambil tanggal 10 dan kembali tanggal 12 dihitung 2 hari. Sewa di hari yang sama belum didukung.</p></details><details><summary>Apakah alat di katalog pasti tersedia?</summary><p>Katalog ini berisi contoh alat dan tarif. Stok tidak diperbarui secara real-time. Pengelola perlu mengonfirmasi ketersediaan untuk tanggal yang kamu pilih.</p></details><details><summary>Apakah pengajuan sudah menjadi reservasi?</summary><p>Belum. Membuka WhatsApp hanya menyiapkan draf pesan. Kirim pesan tersebut dan tunggu konfirmasi pengelola mengenai stok, ketentuan, dan pembayaran.</p></details><details><summary>Bagaimana pengambilan dan pengembaliannya?</summary><p>MVP ini menggunakan pengambilan dan pengembalian di toko. Lokasi serta waktunya harus disepakati dengan pengelola sebelum transaksi. Layanan pengiriman belum tersedia.</p></details><details><summary>Apakah ada deposit atau biaya keterlambatan?</summary><p>Estimasi website hanya mencakup biaya sewa. Ketentuan deposit, keterlambatan, kerusakan, dan biaya tambahan akan dijelaskan pengelola sebelum kamu menyetujui transaksi.</p></details><details><summary>Apakah data kontak saya disimpan?</summary><p>Nama dan nomor kontak tidak disimpan oleh website. Keranjang dan tanggal disimpan di browser ini jika diizinkan. Ketika kamu membuka WhatsApp, kontak dan rincian pengajuan dimasukkan ke draf pesan pada layanan tersebut.</p></details></div></section>
+    <section class="container contact-section" id="kontak" aria-labelledby="contact-heading"><div class="contact-mountain" aria-hidden="true">△</div><div><p class="eyebrow">SAMPAI JUMPA DI PERJALANAN</p><h2 id="contact-heading">Persiapkan langkah berikutnya.</h2><p id="business-contact">Informasi kontak, lokasi toko, dan jam operasional akan tersedia setelah dikonfirmasi pengelola.</p></div><a class="button light" href="#katalog">Pilih perlengkapan <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="container site-footer">
+    <div class="footer-identity">
+      <a class="brand footer-brand" href="#beranda"><span class="brand-mark" aria-hidden="true">△</span><span>PUNCAK<span class="brand-sub">RENTAL & OUTDOOR</span></span></a>
+      <p>Perlengkapan untuk setiap langkah.</p>
+    </div>
+    <div class="footer-location">
+      <h2>Alamat penyewaan</h2>
+      <address id="footer-address">Jl. Kemang Raya No. 18, RT 004/RW 002,
+Kelurahan Bangka, Kecamatan Mampang Prapatan,
+Kota Administrasi Jakarta Selatan, DKI Jakarta 12730, Indonesia</address>
+      <p id="footer-address-note">Alamat contoh untuk demonstrasi website.</p>
+    </div>
+    <span>© <span id="year">2026</span> Puncak Rental · Katalog contoh</span>
+  </footer>
+  <div id="status-message" class="toast" role="status" aria-live="polite"></div>
+  <p id="storage-warning" class="storage-warning" role="status" hidden>Keranjang dapat digunakan, tetapi belum bisa disimpan pada browser ini.</p>
+</body>
+</html>
